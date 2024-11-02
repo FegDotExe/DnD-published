@@ -1,20 +1,41 @@
 {
   "vaultName": "DnD",
-  "lastExport": 1727088258499,
+  "lastExport": 1730586361657,
   "pluginVersion": "1.8.01",
-  "validBodyClasses": "publish css-settings-manager show-inline-title show-ribbon theme-light",
+  "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
     "Regole/Combattimento/attaccare.md",
+    "Regole/Combattimento/attacchi di opportunità.md",
+    "Regole/Combattimento/azione.md",
+    "Regole/Combattimento/classe armatura.md",
+    "Regole/Combattimento/copertura.md",
+    "Regole/Combattimento/iniziativa.md",
+    "Regole/Combattimento/movimento.md",
+    "Regole/Combattimento/reazione.md",
+    "Regole/Combattimento/resistenza.md",
     "Regole/Combattimento/risolvere i tiri d'attacco.md",
+    "Regole/Combattimento/sorpresa.md",
     "Regole/Combattimento/svolgimento di un combattimento.md",
     "Regole/Combattimento/tiro per colpire.md",
+    "Regole/Combattimento/turno di battaglia.md",
+    "Regole/Generali/Oggetti/versatile.md",
+    "Regole/Generali/Stati/incapacitata.md",
+    "Regole/Generali/Stati/pietrificata.md",
+    "Regole/Generali/Stati/prono.md",
+    "Regole/Generali/armature senza competenza.md",
     "Regole/Generali/bonus di competenza.md",
+    "Regole/Generali/creazione della scheda personaggio.md",
+    "Regole/Generali/ispirazione.md",
     "Regole/Generali/livellare.md",
     "Regole/Generali/modificatore di capacità.md",
+    "Regole/Generali/percezione passiva.md",
+    "Regole/Generali/prova.md",
     "Regole/Generali/riposare.md",
     "Regole/Generali/tiri.md",
+    "Regole/Generali/tiri salvezza.md",
+    "Regole/Generali/tiri salvezza contro la morte.md",
     "Regole/Incantesimi/caratteristica da incantatore.md",
     "Regole/Incantesimi/CD dell'incantatore.md",
     "Regole/Incantesimi/slot incantesimo.md",
@@ -35,7 +56,6 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
-    "lib/media/3d6c1bdc4d87cde4de67.svg",
     "lib/fonts/mathjax_zero.woff",
     "lib/fonts/mathjax_main-regular.woff",
     "lib/fonts/mathjax_main-bold.woff",
@@ -70,7 +90,6 @@
     "lib/scripts/graph-data.js",
     "lib/styles/obsidian.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/supported-plugins.css",
     "lib/styles/main-styles.css",
     "lib/styles/snippets.css"
   ],
@@ -90,7 +109,6 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
-    "lib/media/3d6c1bdc4d87cde4de67.svg",
     "lib/fonts/mathjax_zero.woff",
     "lib/fonts/mathjax_main-regular.woff",
     "lib/fonts/mathjax_main-bold.woff",
@@ -125,411 +143,536 @@
     "lib/scripts/graph-data.js",
     "lib/styles/obsidian.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/supported-plugins.css",
     "lib/styles/main-styles.css",
     "lib/styles/snippets.css"
   ],
   "fileInfo": {
     "Regole/Combattimento/attaccare.md": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 356,
       "exportedPath": "regole/combattimento/attaccare.html",
       "dependencies": []
     },
     "Regole/Combattimento/risolvere i tiri d'attacco.md": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 1297,
       "exportedPath": "regole/combattimento/risolvere-i-tiri-d'attacco.html",
       "dependencies": []
     },
     "Regole/Combattimento/tiro per colpire.md": {
-      "modifiedTime": 1727088258499,
-      "sourceSize": 551,
+      "modifiedTime": 1730586361657,
+      "sourceSize": 692,
       "exportedPath": "regole/combattimento/tiro-per-colpire.html",
       "dependencies": []
     },
     "Regole/Generali/bonus di competenza.md": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 456,
       "exportedPath": "regole/generali/bonus-di-competenza.html",
       "dependencies": []
     },
     "Regole/Generali/livellare.md": {
-      "modifiedTime": 1727088258499,
-      "sourceSize": 3655,
+      "modifiedTime": 1730586361657,
+      "sourceSize": 3922,
       "exportedPath": "regole/generali/livellare.html",
       "dependencies": []
     },
     "Regole/Generali/modificatore di capacità.md": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 609,
       "exportedPath": "regole/generali/modificatore-di-capacità.html",
       "dependencies": []
     },
     "Regole/Generali/tiri.md": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 543,
       "exportedPath": "regole/generali/tiri.html",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1727088533219,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1727088258499,
-      "sourceSize": 8053,
+      "modifiedTime": 1730586361657,
+      "sourceSize": 16443,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1727088258499,
-      "sourceSize": 1328,
+      "modifiedTime": 1730586361657,
+      "sourceSize": 3108,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1727088258499,
-      "sourceSize": 130471,
+      "modifiedTime": 1730586361657,
+      "sourceSize": 131134,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 311,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1727088533219,
       "sourceSize": 4431,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 226,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
     },
     "Regole/Combattimento/svolgimento di un combattimento.md": {
-      "modifiedTime": 1727088258499,
-      "sourceSize": 430,
+      "modifiedTime": 1730586361657,
+      "sourceSize": 570,
       "exportedPath": "regole/combattimento/svolgimento-di-un-combattimento.html",
       "dependencies": []
     },
     "Regole/Generali/riposare.md": {
-      "modifiedTime": 1727088258499,
-      "sourceSize": 659,
+      "modifiedTime": 1730586361657,
+      "sourceSize": 912,
       "exportedPath": "regole/generali/riposare.html",
       "dependencies": []
     },
     "Regole/Incantesimi/caratteristica da incantatore.md": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 1212,
       "exportedPath": "regole/incantesimi/caratteristica-da-incantatore.html",
       "dependencies": []
     },
     "Regole/Incantesimi/CD dell'incantatore.md": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 280,
       "exportedPath": "regole/incantesimi/cd-dell'incantatore.html",
       "dependencies": []
     },
     "Regole/Incantesimi/slot incantesimo.md": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 896,
       "exportedPath": "regole/incantesimi/slot-incantesimo.html",
       "dependencies": []
     },
     "Regole/Incantesimi/verificare se un incantesimo è andato a segno.md": {
-      "modifiedTime": 1727088258499,
-      "sourceSize": 406,
+      "modifiedTime": 1730586361657,
+      "sourceSize": 410,
       "exportedPath": "regole/incantesimi/verificare-se-un-incantesimo-è-andato-a-segno.html",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1727088258499,
+      "modifiedTime": 1730586361657,
       "sourceSize": 34,
       "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "Regole/Combattimento/attacchi di opportunità.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 392,
+      "exportedPath": "regole/combattimento/attacchi-di-opportunità.html",
+      "dependencies": []
+    },
+    "Regole/Combattimento/azione.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 892,
+      "exportedPath": "regole/combattimento/azione.html",
+      "dependencies": []
+    },
+    "Regole/Combattimento/classe armatura.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 400,
+      "exportedPath": "regole/combattimento/classe-armatura.html",
+      "dependencies": []
+    },
+    "Regole/Combattimento/copertura.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 652,
+      "exportedPath": "regole/combattimento/copertura.html",
+      "dependencies": []
+    },
+    "Regole/Combattimento/iniziativa.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 628,
+      "exportedPath": "regole/combattimento/iniziativa.html",
+      "dependencies": []
+    },
+    "Regole/Combattimento/movimento.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 2276,
+      "exportedPath": "regole/combattimento/movimento.html",
+      "dependencies": []
+    },
+    "Regole/Combattimento/reazione.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 244,
+      "exportedPath": "regole/combattimento/reazione.html",
+      "dependencies": []
+    },
+    "Regole/Combattimento/resistenza.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 86,
+      "exportedPath": "regole/combattimento/resistenza.html",
+      "dependencies": []
+    },
+    "Regole/Combattimento/sorpresa.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 418,
+      "exportedPath": "regole/combattimento/sorpresa.html",
+      "dependencies": []
+    },
+    "Regole/Combattimento/turno di battaglia.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 235,
+      "exportedPath": "regole/combattimento/turno-di-battaglia.html",
+      "dependencies": []
+    },
+    "Regole/Generali/Oggetti/versatile.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 146,
+      "exportedPath": "regole/generali/oggetti/versatile.html",
+      "dependencies": []
+    },
+    "Regole/Generali/Stati/incapacitata.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 92,
+      "exportedPath": "regole/generali/stati/incapacitata.html",
+      "dependencies": []
+    },
+    "Regole/Generali/Stati/pietrificata.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 658,
+      "exportedPath": "regole/generali/stati/pietrificata.html",
+      "dependencies": []
+    },
+    "Regole/Generali/Stati/prono.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 373,
+      "exportedPath": "regole/generali/stati/prono.html",
+      "dependencies": []
+    },
+    "Regole/Generali/armature senza competenza.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 127,
+      "exportedPath": "regole/generali/armature-senza-competenza.html",
+      "dependencies": []
+    },
+    "Regole/Generali/creazione della scheda personaggio.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 1651,
+      "exportedPath": "regole/generali/creazione-della-scheda-personaggio.html",
+      "dependencies": []
+    },
+    "Regole/Generali/ispirazione.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 192,
+      "exportedPath": "regole/generali/ispirazione.html",
+      "dependencies": []
+    },
+    "Regole/Generali/percezione passiva.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 442,
+      "exportedPath": "regole/generali/percezione-passiva.html",
+      "dependencies": []
+    },
+    "Regole/Generali/prova.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 515,
+      "exportedPath": "regole/generali/prova.html",
+      "dependencies": []
+    },
+    "Regole/Generali/tiri salvezza.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 326,
+      "exportedPath": "regole/generali/tiri-salvezza.html",
+      "dependencies": []
+    },
+    "Regole/Generali/tiri salvezza contro la morte.md": {
+      "modifiedTime": 1730586361657,
+      "sourceSize": 414,
+      "exportedPath": "regole/generali/tiri-salvezza-contro-la-morte.html",
       "dependencies": []
     }
   }
